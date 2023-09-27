@@ -1,0 +1,91 @@
+[
+  {
+    "id":1,
+    "namme":"Resident Evil",
+    "image":"/src/assets/resident-4.png",
+    "platform":"xbox",
+    "exclusive":false,
+    "price":100
+  },
+
+  {
+    "id":2,
+    "namme":"Samurai Shadow",
+    "image":"/src/assets/samurai-shadow.png",
+    "platform":"3DO",
+    "exclusive":true,
+    "price":200
+  },
+
+  {
+    "id":3,
+    "namme":"Assassins Creed",
+    "image":"/src/assets/assassins-creed.png",
+    "platform":"PS3",
+    "exclusive":true,
+    "price":200
+  },
+
+  {
+    "id":4,
+    "namme":"Last Blade",
+    "image":"/src/assets/last-blade.png",
+    "platform":"Neo Geo",
+    "exclusive":true,
+    "price":100
+  },
+
+  {
+    "id":5,
+    "namme":"Mario Kart",
+    "image":"/src/assets/mario-kart.png",
+    "platform":"Nintendo",
+    "exclusive":true,
+    "price":100
+  },
+
+  {
+    "id":6,
+    "namme":"Ninja Warriors",
+    "image":"/src/assets/ninja-warriors.png",
+    "platform":"Sega CD",
+    "exclusive":false,
+    "price":150
+  },
+
+  {
+    "id":7,
+    "namme":"Forza",
+    "image":"/src/assets/forza.png",
+    "platform":"Xbox",
+    "exclusive":false,
+    "price":150
+  },
+  {
+    "id":8,
+    "namme":"Dead Rising",
+    "image":"/src/assets/dead-rising.png",
+    "platform":"PC",
+    "exclusive":false,
+    "price":100
+  },
+
+  {
+    "id":9,
+    "namme":"Street Fighter 5",
+    "image":"/src/assets/sf5.png",
+    "platform":"PS4",
+    "exclusive":false,
+    "price":100
+  },
+{
+    "id":10,
+    "namme":"Mortal Kombat Komplete",
+    "image":"/src/assets/mk.png",
+    "platform":"PS3",
+    "exclusive":false,
+    "price":100
+  },
+
+
+]
