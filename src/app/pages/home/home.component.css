@@ -7,11 +7,8 @@
   gap: 5px;
   align-items: baseline;
   flex-wrap: wrap;
-  border: 1px solid rgb(255, 0, 149);
-
-  /* height: 100vh; */
-  /* background-color: brown; */
   color: white;
   position: relative;
   top: 82px;
+
 }

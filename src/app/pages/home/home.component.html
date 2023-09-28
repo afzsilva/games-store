@@ -1,7 +1,7 @@
 <app-menu-bar></app-menu-bar>
 <div class="home__container">
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
+
+  <app-card *ngFor="let game of gamesList" [gameInfo]="game"></app-card>
+
   <!-- <router-outlet></router-outlet> -->
 </div>

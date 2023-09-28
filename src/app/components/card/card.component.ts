@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { GameInfo } from 'src/app/model/game-info.model';
 
 @Component({
   selector: 'app-card',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  isExclusive:boolean=false;
+  @Input() gameInfo?:GameInfo;
 
   constructor() { }
 
