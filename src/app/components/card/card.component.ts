@@ -8,7 +8,15 @@ import { GameInfo } from 'src/app/model/game-info.model';
 })
 export class CardComponent implements OnInit {
 
-  @Input() gameInfo?:GameInfo;
+  @Input()
+  gameInfo: GameInfo = {
+    id: 0,
+    name: '',
+    image: '',
+    platform: '',
+    exclusive: false,
+    price: 0
+  };
 
   constructor() { }
 

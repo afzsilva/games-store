@@ -1,5 +1,6 @@
 <div class="card__container">
-  <img class="card__img" src="{{gameInfo?.image}}" alt="">
+  <img class="card__img" [src]="gameInfo.image" alt="">
   <app-card-label *ngIf="gameInfo?.exclusive" gameLabel="Exclusive"></app-card-label>
-  <app-card-pricing tittle="{{gameInfo?.name}}" plataforms="{{gameInfo?.platform}}"></app-card-pricing>
+  <app-card-pricing [gamePrice]="gameInfo.price" [tittle]="gameInfo.name"
+    [plataforms]="gameInfo.platform"></app-card-pricing>
 </div>
